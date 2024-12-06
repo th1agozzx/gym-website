@@ -21,19 +21,17 @@ const About = () => {
                 </div>
                 <div>
                   <p className="text-primary">Global Fitness</p>
-                  <h1 className="text-2xl sm:text-4xl font-bold">About us</h1>
+                  <h1 className="text-2xl sm:text-4xl font-bold">Sobre nós</h1>
                 </div>
               </div>
               <p data-aos="fade-up" className="leading-8 tracking-wide">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                Aspernatur, magnam! Tenetur odio quo et maxime?
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Totam delectus dolor exercitationem similique vitae explicabo iure repudiandae, quos veniam.
               </p>
               <p data-aos="fade-up" data-aos-delay="300">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi,
-                tempora.
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Totam delectus dolor exercitationem similique vitae explicabo iure repudiandae, quos veniam.
               </p>
               <button data-aos="fade-up" className="button-outline">
-                Get Started
+                Comece Agora
               </button>
             </div>
           </div>

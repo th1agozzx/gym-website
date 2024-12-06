@@ -5,51 +5,51 @@ import { SlNote } from "react-icons/sl";
 
 const skillsData = [
   {
-    name: "Gold Card",
+    name: "Cartão de Ouro",
     price: 499,
     icon: (
       <FaCameraRetro className="text-5xl text-primary group-hover:text-black duration-300" />
     ),
     link: "#",
     description: [
-      "Monthly access to fitness area.",
-      "Training sessions on demand.",
-      "Personal trainer on demand.",
-      "Live classes on demand.",
+      "Acesso mensal à área de fitness.",
+      "Sessões de treinamento sob demanda.",
+      "Personal trainer sob demanda.",
+      "Aulas ao vivo sob demanda.",
     ],
-    duration: "12 month",
+    duration: "12 meses",
     aosDelay: "0",
   },
   {
-    name: "Flexible Card",
+    name: "Cartão Flexível",
     price: 899,
     icon: (
       <GiNotebook className="text-5xl text-primary group-hover:text-black duration-300" />
     ),
     link: "#",
     description: [
-      "Monthly access to fitness area.",
-      "Training sessions on demand.",
-      "Personal trainer on demand.",
-      "Live classes on demand.",
+      "Acesso mensal à área de fitness.",
+      "Sessões de treinamento sob demanda.",
+      "Personal trainer sob demanda.",
+      "Aulas ao vivo sob demanda.",
     ],
-    duration: "12 month",
+    duration: "12 meses",
     aosDelay: "500",
   },
   {
-    name: "Platinum Card",
+    name: "Cartão Platina",
     price: 1299,
     icon: (
       <SlNote className="text-5xl text-primary group-hover:text-black duration-500" />
     ),
     link: "#",
     description: [
-      "Monthly access to fitness area.",
-      "Training sessions on demand.",
-      "Personal trainer on demand.",
-      "Live classes on demand.",
+      "Acesso mensal à área de fitness.",
+      "Sessões de treinamento sob demanda.",
+      "Personal trainer sob demanda.",
+      "Aulas ao vivo sob demanda.",
     ],
-    duration: "12 month",
+    duration: "12 meses",
     aosDelay: "1000",
   },
 ];
@@ -64,7 +64,7 @@ const Services = () => {
               data-aos="fade-up"
               className="text-3xl font-bold text-center sm:text-4xl"
             >
-              Why <span className="text-primary">Choose</span> Us
+              Escolha <span className="text-primary">Seu</span> Plano
             </h1>
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
@@ -92,7 +92,7 @@ const Services = () => {
                   href={skill.link}
                   className="primary-btn mt-4 group-hover:scale-105  duration-200"
                 >
-                  Learn more
+                  Leia mais
                 </a>
               </div>
             ))}

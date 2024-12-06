@@ -24,11 +24,10 @@ const AppStoreBanner = () => {
               data-aos="fade-up"
               className="text-2xl text-center sm:text-4xl font-semibold font-serif"
             >
-              Get Started with our app
+              Comece a usar nosso aplicativo
             </h1>
             <p data-aos="fade-up" className="text-center sm:px-20">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique
-              magnam harum accusantium odit?
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Totam delectus dolor exercitationem similique vitae explicabo iure repudiandae, quos veniam.
             </p>
             <div
               data-aos="fade-up"

@@ -8,17 +8,17 @@ import { BiPhoneCall } from "react-icons/bi";
 export const Navlinks = [
   {
     id: 1,
-    name: "SERVICES",
+    name: "SERVIÇOS",
     link: "/#services",
   },
   {
     id: 2,
-    name: "ABOUT",
+    name: "PLANOS",
     link: "/#about",
   },
   {
     id: 3,
-    name: "JOIN",
+    name: "ENTRE",
     link: "/#join",
   },
 ];
@@ -37,7 +37,7 @@ const Navbar = () => {
         <div className="flex justify-between items-center">
           <div className="sm:flex items-center gap-3 hidden font-semibold text-gray-500 dark:text-gray-400 group">
             <BiPhoneCall className="text-primary text-2xl animate-pulse group-hover:scale-105 duration-200" />{" "}
-            +91 123456789
+            +55 9898401795
           </div>
           <div>
             <img
@@ -58,14 +58,14 @@ const Navbar = () => {
                   </a>
                 </li>
               ))}
-              {/* DarkMode feature implement */}
+              
               <DarkMode />
             </ul>
           </nav>
-          {/* Mobile view  */}
+          
           <div className="flex items-center gap-4 md:hidden py-4">
             <DarkMode />
-            {/* Mobile Hamburger icon */}
+            
             {showMenu ? (
               <HiMenuAlt1
                 onClick={toggleMenu}

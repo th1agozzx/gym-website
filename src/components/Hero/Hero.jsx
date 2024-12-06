@@ -20,17 +20,17 @@ const Hero = () => {
         <div className="container min-h-[620px] flex items-center">
           <div className="w-full md:w-[550px] mx-auto text-center space-y-5">
             <p data-aos="fade-up" className="text-primary text-2xl">
-              Start Your Fitness Journey
+            Comece sua jornada no mundo da musculação
             </p>
             <h1
               data-aos="fade-up"
               data-aos-delay="300"
               className="text-5xl md:text-7xl font-bold"
             >
-              Your Fitness Journey Begins!
+              Sua jornada neste mundo físico começa aqui!
             </h1>
             <p data-aos="fade-up" data-aos-delay="500">
-              “The body achieves what the mind believes.”{" "}
+            "O corpo alcança o que a mente acredita."{" "}
             </p>
             <button
               data-aos="fade-up"
@@ -38,7 +38,7 @@ const Hero = () => {
               data-aos-once={"true"}
               className="primary-btn"
             >
-              Get Started
+              Comece Aqui
             </button>
           </div>
         </div>
